@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@thirdweb-dev/contracts/base/ERC721Drop.sol";
 
-contract Contract is ERC721Drop {
+contract NFTDrop is ERC721Drop {
     constructor(
         string memory _name,
         string memory _symbol,
